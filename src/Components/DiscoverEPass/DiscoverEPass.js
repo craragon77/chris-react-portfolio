@@ -7,13 +7,16 @@ export default class DiscoverEPass extends Component{
             <>
                 <section>
                     <h4>Discover-E-Pass</h4><br/>
-                    <div><img src={snapshot} alt='Discover-E-Pass snapshot'/></div>
+                    <div>
+                        <a target="_blank" href="https://parks-client.vercel.app/" rel="noopener noreferrer"><img src={snapshot} alt='Discover-E-Pass snapshot'/></a>
+                    </div>
                     <div>
                         <p>
-                            Inspired by the Passport to Your National Parks, <a target="_blank" href="https://parks-client.vercel.app/">Discover-E-Pass</a> is a fullstack program in which
-                            users can "stamp" every American national park, monument, and historic they have attended, as well
-                            as record which histoic sites they wish to attend. This program was built with React, JSX, CSS + SCSS,
-                            Node.js, and PostgreSQL.
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/National_Park_Passport_Stamps" rel="noopener noreferrer">Inspired by the National Parks Passport</a>, the National Parks Discover-E-Pass is a program to "stamp" every national park, monument, and historic site that you have attended or wish to visit. 
+                        I built this because I own a National Parks Passport, and I wanted to pay tribute to those who work hard to preserve the 490+ national parks and monuments around the country. 
+                        The National Parks Discover-E-Pass is a program that aims to inspire others to visit and explore national parks. 
+                        It is a full stack program made with React, Node.js, PostgreSQL, and CSS. 
+                        Feel free to view the client code <a target="_blank" href="https://github.com/craragon77/National-Parks-Passport-Client" rel="noopener noreferrer">here</a> and the server code <a target="_blank" href="https://github.com/craragon77/National-Parks-Passport-Server" rel="noopener noreferrer">here</a>.
                         </p>
                     </div>
                 </section>
