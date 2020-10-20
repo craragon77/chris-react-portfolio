@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
-import snapshot from '../../pics/Discover-E-Pass-snapshot.jpg'
+import snapshot from '../../pics/Discover-E-Pass-snapshot.jpg';
+import './DiscoverEPass.css'
 
 export default class DiscoverEPass extends Component{
     render(){
         return(
             <>
                 <section>
-                    <h4>Discover-E-Pass</h4><br/>
+                    <h4>National Parks Discover-E-Pass</h4><br/>
                     <div>
-                        <a target="_blank" href="https://parks-client.vercel.app/" rel="noopener noreferrer"><img src={snapshot} alt='Discover-E-Pass snapshot'/></a>
+                        <a target="_blank" href="https://parks-client.vercel.app/" rel="noopener noreferrer"><img src={snapshot} alt='Discover-E-Pass snapshot' className="image-link"/></a>
                     </div>
                     <div>
                         <p>

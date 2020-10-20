@@ -9,14 +9,16 @@ import Bearfoot from './Components/Bearfoot/Bearfoot';
 import DiscoverEPass from './Components/DiscoverEPass/DiscoverEPass';
 import CarLogo from './Components/CarLogo/CarLogo';
 import Contact from './Components/Contact/Contact';
+import Header from './Components/Header/Header';
+import './App.css';
 
 function App() {
   return (
-    <>
+    <div className="App">
+      <Header/>
       <Switch>
-        <Route exact path='/' component={LandingPage} />
-        <Route path='/en/Welcome' component={Welcome}/>
-        <Route path ='/en/AboutMe' component={AboutMe} />
+        <Route exact path='/' component={Welcome}/>
+        <Route path ='/en/AboutMe' component={AboutMe}/>
         <Route path='/en/Portfolio' component={Portfolio}/>
         <Route path='/en/Bearfoot' component={Bearfoot}/>
         <Route path='/en/DiscoverEPass' component={DiscoverEPass}/>
@@ -24,7 +26,7 @@ function App() {
         <Route path='/en/Contact' component={Contact}/>
         <Route component={PageNotFound}/>
       </Switch>
-    </>
+    </div>
   );
 }
 

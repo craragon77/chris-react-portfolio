@@ -1,0 +1,15 @@
+.chris-aragon{
+    height: 140px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+h1{
+    text-align: center;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

@@ -1,9 +1,11 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import './About-Me.css'
 
 export default class AboutMe extends Component{
     render(){
         return(
             <>
+                <h2 className="about-me">About Me</h2>
                 <div>
                     <p>
                     I was first exposed to coding after hearing this NPR podcast about how computer science is being used to save elephants in the wild, and since I started learning programming I have never looked back! 
