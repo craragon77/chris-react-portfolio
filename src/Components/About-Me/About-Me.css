@@ -2,7 +2,18 @@
     font-size: 20px;
     text-align: center;
 }
-p{
+.about-me-text{
     font-size: 17px;
     line-height: 25px;
+    text-align: center;
+}
+@media screen and (min-width: 600px){
+    .about-me{
+        font-size: 25px;
+    }
+    .about-me-text{
+        text-align: left;
+        font-size: 23px;
+        line-height: 30px;
+    }
 }

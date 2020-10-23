@@ -5,11 +5,34 @@
     margin-left: auto;
     display: block;
 }
-h1{
+.Hi{
     text-align: center;
 }
 .links{
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+.my-name{
+    color: maroon;
+}
+@media screen and (min-width: 600px){
+    .welcome-container{
+        display: flex;
+    }
+    .welcome-text, .welcome-img{
+        width: 50%;
+    }
+    .chris-aragon{
+        height: 250px;
+        width: 350px;
+    }
+    .welcome-img{
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .Hi{
+        font-size: 40px;
+        line-height: 43px;
+    }
 }

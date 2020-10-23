@@ -1,6 +1,47 @@
 .contact-container{
     text-align: center;
 }
-.links-section > div{
-    margin-top: 10px;
+.email_logo{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+}
+.resume_logo{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+.github_logo{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+.linkedin_logo{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+.links-section{
+    display: inline;
+    justify-content: space-around;
+}
+.link-label{
+    margin: 5px;
+}
+.email-div, .resume-div, .linkedin-div, .github-div{
+    width: 50%;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:600px){
+    .contact-me{
+        font-size: 30px;
+    }
+    .feel-free{
+        font-size: 25px;
+    }
+    
 }

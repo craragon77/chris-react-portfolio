@@ -1,0 +1,11 @@
+.Menulist > a{
+    padding-left: 20px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.Menulist{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}

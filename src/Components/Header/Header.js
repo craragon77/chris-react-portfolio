@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
+import Menu from './Menu';
+import MenuButton from './MenuButton';
 import './Header.css';
 
 export default class Header extends Component{
@@ -48,10 +50,14 @@ export default class Header extends Component{
         }
         return(
             <div className="header">
-                <Link to="/">Home</Link>
+                <div style={styles.container}>
+                    <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color='white' />
+                </div>
+                <Menu open={this.state.menuOpen} onClick={()=>this.handleLinkClick()}/>
+                {/*<Link to="/">Home</Link>
                 <Link to="AboutMe">About Me</Link>
-                <Link to="/en/Portfolio">Portfolio</Link>
-                <Link to="/en/Contact">Contact Me</Link>
+                <Link to="/Portfolio">Portfolio</Link>
+                <Link to="/Contact">Contact Me</Link> */}
             </div>
         )
     }
