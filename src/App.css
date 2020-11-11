@@ -2,6 +2,7 @@
     margin-top: 40px;
     margin-right: 20px;
     margin-left: 20px;
+    /*font-family: 'Roboto Slab', serif; */
 }
 @media screen and (min-width: 600px){
     .App{

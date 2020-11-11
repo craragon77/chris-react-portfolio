@@ -5,6 +5,19 @@
 section{
     text-align: center;
 }
-p{
+#what_is_it{
     font-size: 17px;
+}
+@media screen and (min-width: 600px){
+    #app_title{
+        font-size: 30px;
+    }
+    .image-link{
+        width: 525px;
+        height: 350px;
+    }
+    #what_is_it{
+        font-size: 23px;
+        line-height: 35px;
+    }
 }

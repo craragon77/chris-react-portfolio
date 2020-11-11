@@ -6,3 +6,28 @@
     font-size: 17px;
     text-align: center;
 }
+@media screen and (min-width: 600px){
+    .BestPracticePic{
+        width: 400px;
+        height: 400px;
+    }
+    #what_is_it{
+        font-size: 23px;
+        line-height: 35px;
+    }
+    #app_title{
+        font-size: 30px;
+    }
+    .pic_div{
+        /*width: 50%;*/
+    }
+    .BestPractice_Textbox{
+        /*width: 50%; */
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0px;
+    }
+    /*#flex_display{
+        display: flex;
+    } */
+}

@@ -12,20 +12,20 @@ export default class Portfolio extends Component{
             <>
                 <h1>Portfolio</h1>
                 <h3>Please feel free to explore and learn about my work</h3>
-                <div>
-                    <Link to="/DiscoverEPass">Discover-E-Pass</Link>
+                <div className="menu">
+                    <Link to="/DiscoverEPass">Discover-E-Pass (full stack program)</Link>
                 </div>
                 <hr/>
-                <div>
-                    <Link to="/Bearfoot">Bearfoot</Link>
+                <div className="menu">
+                    <Link to="/Bearfoot">Bearfoot (client-side program)</Link>
                 </div>
                 <hr/>
-                <div>
-                    <Link to="/BestPractice">Best Practice</Link>
+                <div className="menu">
+                    <Link to="/BestPractice">Best Practice (full stack program)</Link>
                     <hr />
                 </div>
-                <div>
-                    <Link to="/CarLogoQuiz">CarLogoQuiz</Link>
+                <div className="menu">
+                    <Link to="/CarLogoQuiz">Car Logo Quiz (client-slide program)</Link>
                 </div>
                 <hr/>
             </>
