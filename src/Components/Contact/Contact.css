@@ -43,5 +43,17 @@
     .feel-free{
         font-size: 25px;
     }
-    
+    .linkedin_logo, .github_logo, .resume_logo{
+        height: 100px;
+        width: 100px;
+        margin-top: 10px;
+    }
+    .email_logo{
+        height: 110px;
+        width: 110px;
+        margin-top: 10px;
+    }
+    .link-label{
+        font-size: 20px;
+    }
 }

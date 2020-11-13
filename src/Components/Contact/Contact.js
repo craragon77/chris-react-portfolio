@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Resume from '../../resumes/Chris_Aragon_Resume_10_14_20.pdf'
+import Resume from '../../resumes/Chris Aragon Resume 10_22_20.pdf'
 import './Contact.css';
 import email from '../../pics/email2.jpg';
 import resume from '../../pics/resume.jpg';

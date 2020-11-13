@@ -8,3 +8,16 @@ section{
 p{
     font-size: 17px;
 }
+@media screen and (min-width: 600px){
+    .bearfoot-link{
+        height: 475px;
+        width: 475px;
+    }
+    .what_is_it{
+        font-size: 23px;
+        line-height: 35px;
+    }
+    .bearfoot_title{
+        font-size: 30px;
+    }
+}
