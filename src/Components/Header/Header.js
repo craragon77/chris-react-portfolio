@@ -33,7 +33,7 @@ export default class Header extends Component{
             background: 'black',
             width: '100%',
             color: 'white',
-            fontFamily:'Lobster',
+            fontFamily:'Lobster'
           },
           logo: {
             margin: '0 auto',

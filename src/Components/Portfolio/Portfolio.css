@@ -1,10 +1,18 @@
 h1{
     font-size: 30px;
     text-align: center;
+    color: #20a4f3;
 }
 h3{
     text-align: center;
 }
+.menu > a{
+    color: #09ffb5;
+}
+.menu > a:hover{
+    color: #ffc600;
+}
+
 @media screen and (min-width: 600px){
     h1{
         font-size: 40px;

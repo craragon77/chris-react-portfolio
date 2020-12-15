@@ -8,8 +8,8 @@ export default class BestPractice extends Component{
             <section className="BestPractice-Container">
                 <h4 id="app_title">Best Practice</h4>
                 <div id="flex_display">
-                    <div classname="pic_div">
-                    <a target="_blank" href="https://best-practice-client.vercel.app/" rel="noopener noreferrer"><img src={BestPracticeScreenShot} alt="best practice screenshot + link" className="BestPracticePic"/></a>
+                    <div className="pic_div">
+                        <a target="_blank" href="https://best-practice-client.vercel.app/" rel="noopener noreferrer"><img src={BestPracticeScreenShot} alt="best practice screenshot + link" className="BestPracticePic"/></a>
                     </div>
                     <div className="BestPractice_Textbox">
                         <p id="what_is_it">

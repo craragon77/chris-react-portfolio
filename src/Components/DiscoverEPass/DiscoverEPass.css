@@ -8,6 +8,15 @@ section{
 #what_is_it{
     font-size: 17px;
 }
+#app_title{
+    color: #20a4f3;
+}
+a{
+    color: #09ffb5;
+}
+a:hover{
+    color: #ffc600;
+}
 @media screen and (min-width: 600px){
     #app_title{
         font-size: 30px;
@@ -19,5 +28,15 @@ section{
     #what_is_it{
         font-size: 23px;
         line-height: 35px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .flex-container{
+        display: flex;
+        padding: 30px;
+    }
+    .what_is_it{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }

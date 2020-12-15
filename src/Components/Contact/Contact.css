@@ -35,6 +35,9 @@
     margin-left: auto;
     margin-top: 20px;
 }
+.contact-me{
+    color: #20a4f3;
+}
 
 @media screen and (min-width:600px){
     .contact-me{

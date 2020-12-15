@@ -18,16 +18,22 @@
     #app_title{
         font-size: 30px;
     }
-    .pic_div{
-        /*width: 50%;*/
-    }
     .BestPractice_Textbox{
-        /*width: 50%; */
         margin-right: auto;
         margin-left: auto;
         margin-top: 0px;
     }
-    /*#flex_display{
+}
+@media screen and (min-width: 1000px){
+    #flex_display{
         display: flex;
-    } */
+        padding: 30px;
+    }
+    #what_is_it{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .BestPractice_Textbox, .pic_div{
+        width: 50%;
+    }
 }

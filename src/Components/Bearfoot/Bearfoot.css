@@ -21,3 +21,13 @@ p{
         font-size: 30px;
     }
 }
+@media screen and (min-width: 1000px){
+    .bearfoot-flex-container{
+        display: flex;
+        padding: 30px;
+    }
+    .what_is_it{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
